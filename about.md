@@ -10,11 +10,33 @@ I am a Master's Student at the University of Utah-Entertainment Arts & Engineeri
 I have also worked part-time as a Teaching Assistant for the course Software Practices-1,with prof.James de St.Germain for the University of Utah-School of Computing.
 I intend to keep this blog about my programming/design adventures,just to give you and insight in the life of a Master's student in the EAE.
 I hope you enjoy my blog,please email me if you wish to speak!
-P.S-I love Video Games :)
+P.S-I love playing/making Video Games :)
 
-### More Information
+### Hobbies
+My Hobbies include:
+- item
+- item
+- item
+- item
+- item
+- item
+- item
+- item
+- item
 
-A place to include any other types of information that you'd like to include about yourself.
+
+-Video Games
+-Video Games
+-Video Games
+-Working out
+-programming
+-Online shopping
+-Philosophy
+
+
+
+
+
 
 ### Contact me
 

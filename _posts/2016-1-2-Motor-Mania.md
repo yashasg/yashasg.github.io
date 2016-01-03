@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Motor Mania"
+title: Motor Mania
 published: true
 ---
+
 
 ## Motor Mania
 ###A top down,quick paced,demolition derby game,where you have to push your opponent's car off the table in 60 seconds.
 
 
 
-
 <iframe width="420" height="315" src="https://www.youtube.com/embed/pjxKk7TVkGc" frameborder="0" allowfullscreen></iframe>
-
+****Post-Mortem****
 1st Week-Pitching ideas and setting up the initial build (without physics)
 I pitched in the idea of bumping vehicles and pushing them off the screen. The game started off with a
 space theme. But soon we decided to move on to a Lava based theme. This didn’t change the underlying
@@ -36,4 +36,3 @@ explosion when the car falls off the table. I also included the music and the so
 On the 4th week. I had to make an end state for the game. For the most part I added a timer to the
 screen, as soon as the players run out of time, the game ends with a draw. Along with this, me and
 Mitch worked on the video and the presentation.
-

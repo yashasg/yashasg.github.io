@@ -18,6 +18,7 @@ _1st Week_:In the first week we decided on the kind of game we wanted to make ba
 previous prototype,Motor Mania,a game which I previously worked on was selected.We
 decided that what we wanted from our audiences was the “WOW” factor,when they see our
 games,so we decided to make a game with rich particle effects and amazing gameplay.
+
 _2nd Week_:In the second week, we had to show what we had worked on so far,I pulled in a
 car mesh from one of unreal tutorials and put it in the game.It worked great,except we
 wanted the car to stick to the walls and drive on walls as well which was not possible with a

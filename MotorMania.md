@@ -5,7 +5,7 @@ published: true
 
 ---
 layout: post
-title: You're up and running!
+title: Motor Mania-Top down Demolition Derby!
 ---
 ## Motor Mania
 ###A top down,quick paced,demolition derby game,where you have to push your opponent's car off the table in 60 seconds.

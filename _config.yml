@@ -19,17 +19,18 @@ avatar: https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/081/21a/2284716
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email:gujjaryashas@gmail.com
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: https://github.com/yashasg
   instagram:
-  linkedin:
+  linkedin:https://www.linkedin.com/in/yashas-gujjar-087666a2
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: https://www.youtube.com/channel/UCurVJfodC9dtZBUvS6xpM4Q
+  # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 

@@ -14,24 +14,13 @@ P.S-I love playing/making Video Games :)
 
 ### Hobbies
 My Hobbies include:
-- item
-- item
-- item
-- item
-- item
-- item
-- item
-- item
-- item
-
-
--Video Games
--Video Games
--Video Games
--Working out
--programming
--Online shopping
--Philosophy
+- Video Games
+- Video Games
+- Video Games
+- Working out
+- programming
+- Online shopping
+- Philosophy
 
 
 

@@ -23,6 +23,7 @@ so I had to just accept PIXI.js and start exploring into it. We divided work whe
 making the level builder for the game and the algorithm for the opponents. By the end of first
 week we had a working prototype with a plane moving in a circle, we had a level builder which
 only worked on firefox.
+
 _2nd Week_:Setting up Opponents algorithm‐I took on the task of writing the algorithm for the
 opponents. In the game Neo Tempest the opponents are just textures being scaled from the size
 of 0.2 to 1, the scaling makes them look like they are moving closer to the player. My algorithm
@@ -31,6 +32,7 @@ images while and obstacles had a 3D feel to it. It was a challenge to scale the 
 correctly and also keep them in the tube(which is the play area of the game),which I did fairly
 well. I also worked on creating the start screen for the game, which was greatly appreciated by
 the team.
+
 _3rd week_:This was the crunch week, all the stuff me and Sid(co engineer) worked on over the
 past 2 weeks had to be integrated into the game, which ended up in a lot of issues. The level
 builder that I made needed a Wamp server which hosted a PHP file containing the level Data, Sid

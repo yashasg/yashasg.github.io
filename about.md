@@ -14,11 +14,11 @@ P.S-I love playing/making Video Games :)
 
 ### Hobbies
 My Hobbies include:
-- Video Games
-- Video Games
-- Video Games
+- Trying out new Game Technologies
+- Learning you Software Architechtures
+- Playing Video Games
 - Working out
-- programming
+- AI Programming
 - Online shopping
 - Philosophy
 

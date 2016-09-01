@@ -14,6 +14,7 @@ Time Spent: ~12 Hours.
 _Purpose of the Class:
 
 I think the purpose of ther class is for us to learn how to program for OpenGL and D3D.while keeping in mind that we are developing it for a game engine,so performance is top priority.
+
 _Purpose of the Assignment_:
 
 The Purpose of the Assignment was for us to learn the Engine Architecture provided by the professor
@@ -86,7 +87,6 @@ around with them and stumbled onto a good effect.
 _code_:
 
 Position- sin(elapsedtime)>1?Position+sin(elapsedtime):Position-sin(elapsedtime);
-_ _
 
 Using this instruction,moving vertices of the triangle made the triangle flip when the position +offset
 value increased more than 1.This was cool in OpenGL as I could see the back of the triangle.I replicated

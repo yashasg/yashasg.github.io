@@ -5,7 +5,7 @@ published: true
 ---
 
 
-##An Endless Arcade Warp Runner,based off the legendary arcade game "Tempest".Includes a cool level-building feature.
+##Animated triangle woohoo!!.
 <iframe width="640" height="315" src="https://www.cade.utah.edu/~gujjar/game.PNG" frameborder="0" allowfullscreen></iframe>
 
 Time Spent: ~12 Hours.

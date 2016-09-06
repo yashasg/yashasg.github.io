@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Game Graphics-Assignment 1.0
+title: Game Graphics-Assignment 2.0
 published: true
 ---
 
 
 ##Animated square woohoo!!.
-<iframe width="640" height="315" src="https://www.cade.utah.edu/~gujjar/game.PNG" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="315" src="https://www.cade.utah.edu/~gujjar/Assignment2/square.PNG" frameborder="0" allowfullscreen></iframe>
 
 Time Spent: ~12 Hours.
-[Download-Assignment 1.0](https://www.cade.utah.edu/~gujjar/game.zip)
+[Download-Assignment 2.0](https://www.cade.utah.edu/~gujjar/Assignment2/game_9_6_2016.zip)
 
 
 _Purpose of the Assignment_:

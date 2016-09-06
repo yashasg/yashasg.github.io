@@ -11,7 +11,7 @@ published: true
 Time Spent: ~12 Hours.
 [Download-Assignment 1.0](https://www.cade.utah.edu/~gujjar/game.zip)
 
-_Purpose of the Class:
+_Purpose of the Class_:
 
 I think the purpose of ther class is for us to learn how to program for OpenGL and D3D.while keeping in mind that we are developing it for a game engine,so performance is top priority.
 

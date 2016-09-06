@@ -5,93 +5,65 @@ published: true
 ---
 
 
-##Animated triangle woohoo!!.
+##Animated square woohoo!!.
 <iframe width="640" height="315" src="https://www.cade.utah.edu/~gujjar/game.PNG" frameborder="0" allowfullscreen></iframe>
 
 Time Spent: ~12 Hours.
 [Download-Assignment 1.0](https://www.cade.utah.edu/~gujjar/game.zip)
 
-_Purpose of the Class_:
-
-I think the purpose of ther class is for us to learn how to program for OpenGL and D3D.while keeping in mind that we are developing it for a game engine,so performance is top priority.
 
 _Purpose of the Assignment_:
 
-The Purpose of the Assignment was for us to learn the Engine Architecture provided by the professor
-and setting up dependencies in the solution.Also to learn how the way the Engine hierarchy is
-maintained.We also had to learn how a triangle is drawn and animated on the screen, using OpenGL and
-Direct3D
+The Purpose of the Assignment was for us to setting up the Lua project and also some of the functions used to communicate data between Lua and c++ code.But this assignment turned out more towards checking if the dependencies are right 
 
 _How I did the Assignment_:
 
-_I broke down my Assignment into tasks_.
+_Just like last time,I broke down my Assignment into tasks_.
 
 _My First task_:
 
-was to read through the assignment page and its links to other pages, which took quite a lot of time,
-especially because I was not just reading it but also trying implement the things that we were asked to
-do in the example solutions. Understanding these example solutions was really helpful and it all came
-together when I started to setup the solution for the main assignment.
+was to read through the assignment page and its links to other pages, which took quite a lot of time, Especially, this time, I felt the reading because very vague and important information was hidden between lots of words.Though the amount of reading was less, this time,I felt like I didn't know enough when I got into making changes to the project.
 
 _My Second Task_:
 
-I started setting up my main solution taking the existing solution provided by JP.
-
-_Sub Task 1_:
-
-The Graphics project needed to be added to the existing framework. I probably created the
-project 4-5 times and deleted it before I got it right. Visual studio doesn’t readily provide an
-option for a class library by default. So the right way was to select a console application and
-make changes when dele project creation wizard shows up. Even over there we need to check
-the box for empty project and another library.Practice makes perfect and now I know how to
-make an empty class library in my sleep. Once the Graphics project was created, I added
-property sheets to it
-
-_Sub Task 2_:
-
-First thing I did was to setup property sheets. This needs to be done very early in the solution
-setup so you can avoid problems that can arise without them. The property sheets were selfexplanatory
-and its purpose was to have a rigid system for creating and moving files with no
-manual interaction. Without them it would be challenging to make a deployable game.
-
-_Sub Task 3_:
-
-Once the property sheets were in and working, I got the files that needed to be in the project
-and moved them to the physical location of the graphics project.I added the files to visual studio
-and realied the files were written to be in folders. I setup similar hierarchy in windows and visual
-studio to maintain consistency in the solution.
+I started setting up my main solution by adding the files provided by JP.I first replaced all the projects that needed to be changed,namely the AssetBuildSystem and the UserSetting project.There were also 2 new projects I added,which were LuaExe and the Lua static library.Luckily, the property sheets were already added to the changed projects. In this task, I also set the dependencies for the projects, so to avoid future linker errors.The LuaExe, AssetBuildSystem and UserSettings now depend on the Lua static library.
 
 _My Third Task_:
 
-Setting up project dependencies As the graphics project was a newcomer to the solution,
-nobody knew it existed and were too shy to make friends with it.I went in as the cupid and started
-adding dependencies to the graphics project. I just looked at the include files in Graphics.gl.cpp and
-added the projects in the build dependency.
-Now Visual studio knows that Graphics needs these libraries to be built before it can build, but it still
-expects a part to the libraries directory and the lib file names, I also setup up different dependencies for
-open GL and Direct3D.
-Now my project was building, but I still couldn’t see the triangle on screen.
+This was the task that involved getting down and dirty with the c++ code.There were some methods that were well defined and had a level of error checking in them,which I used as a coding reference to complete other methods.The first thing I did was replace the EAE6320TODO with a //TODO so the TODO lists show up in the task lists window.This is quite a useful way of organizing the things we want to do in our code.During this task, I made a mistake of commenting out important c++ function called through Lua,and because the error handling for such issue is minimal,I kept getting a message that return of the function was null, but actually the function was never even being called in c++ because it was commented out.This took me some time to figure out.Geeting more technical with code,the comments said I was supposed to return things in c++,my basic understanding was to use the return statement in c++,and I didn't know how Lua could find the return value.Going back tot he usingLua example I saw that returning something  back to Lua is about pushing it back to the stacks so that Lua receives it.What we do end up writing in the c++ return statement is the number of values we returned to Lua.For example,if the function was to return a boolean and an int,we first push them to the Lua stack and then the ReturnValueCount is 2.
+
+So I made all the changes and cleared up the TODO list pretty soon. It was time to see these things in action.
 
 _My Fourth Task_:
-
-BuildAllAssets is a project that uses the BuildSystem to copy the assets(shaders) to the data folder. I
-went and added the shader files to the custom build step of the build all assets. And then I finally saw
-the white triangle.
+With a few more brief changes, I was able to see the triangle rendered in Assignment1. This was relieving knowing that the hardest part of the assignment was done.And it was actually easier than I thought.I built on all platforms and configurations just to make sure everything works fine with Lua.And it did,no problem.
 
 _My Fifth Task_:
 
-Animating triangle: I must warn you I was very rusty with Math during the assignment(even now),so the instructions on the
-shader files spoke about playing with sine and cosine so the triangles shows a good animation. I played
-around with them and stumbled onto a good effect.
+Increasing the size of the vertex buffer
 
-_code_:
+This was actually intuitive enough and just involving the triangle count to be increased.The tricky part was to render the triangles using the handedness logic. I just referenced the logic in which existing vertices were placed for that platform.and then followed the same rule for the new vertices.But as a rule of thumb this is how I remember the handedness using an opposites logic , directX has an R so it renders Lefthanded triangles,and opengL has an L so it renders Righthanded triangles.
+A small issue I had with the code setup is that the TriangleCount variable is being set twice in the code,so we need to change it in 2 places for the square to be drawn.
 
-Position- sin(elapsedtime)>1?Position+sin(elapsedtime):Position-sin(elapsedtime);
+_My Sixth Task_:
 
-Using this instruction,moving vertices of the triangle made the triangle flip when the position +offset
-value increased more than 1.This was cool in OpenGL as I could see the back of the triangle.I replicated
-the same effect in D3D and when the triangle turned,it disappeared from the screen, made me stumble
-onto the Handedness of the triangle concept we spoke in class.I am still experimenting witht his
-effect,but I don’t understand the phenomenon very well.
-This concludes my finding in Assignment 1.I must have missed a few details, please let me know if you
-would like to know more(or less) next time.
+_UserSettings_:
+
+The  project is now supposed to log the resolution in which the project was supposed to be built. This seemed like a complicated task because it involved going through the UserSettings.cpp file to find out where exactly the project was logging the resolution width and height.Turns out the log comes from application project and not UserSettings,but as the requirement was to set it up in user project,I used the s_resolutionHeight and width variables and used the OutputMessage() method for logging them.
+
+These are the 2 lines I write in my log
+
+```The user settings file has the Width: 640
+
+The user settings file has the Height: 480```
+
+These change every time the file settings file is updated and the game is run.So basically it logs the user settings in the last run of the game.It makes sense for it to update this was,so if there is an error due to a usersetting,the log is the only thing the developers will need to replicate the same scenario in their system.
+
+I also noticed that if the settings.ini file is updated in the solution folder,the updated setting doesn't get deployed to the new location.This also makes sense because if there is a patch that is deployed they publisher doesn't know the users preferred settings and overriding the settings of the player with the published settings may frustrate the player.
+
+_My Final Task_:
+
+_Still work in Progress_:
+
+Ajinkya showed me that rebuilding the whole solution actually caused the build to fail,the second time we rebuilt the solution.I am still trying to figure out why this is happening.A quick way for fix this was to unload the LuaExe project,but this didn't seem like the right answer for the problem so I didn't do it.
+
+

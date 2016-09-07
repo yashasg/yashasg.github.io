@@ -44,6 +44,8 @@ Increasing the size of the vertex buffer
 This was actually intuitive enough and just involving the triangle count to be increased.The tricky part was to render the triangles using the handedness logic. I just referenced the logic in which existing vertices were placed for that platform.and then followed the same rule for the new vertices.But as a rule of thumb this is how I remember the handedness using an opposites logic , directX has an R so it renders Lefthanded triangles,and opengL has an L so it renders Righthanded triangles.
 A small issue I had with the code setup is that the TriangleCount variable is being set twice in the code,so we need to change it in 2 places for the square to be drawn.
 
+[Kun Cheng](http://kcheng.net/2016/09/01/setup-visual-studio-and-draw-a-triangle/) helped me debug through this problem and saved me a couple of hours of debugging
+
 _My Sixth Task_:
 
 _UserSettings_:

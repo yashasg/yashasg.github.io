@@ -9,7 +9,7 @@ published: true
 <iframe width="640" height="315" src="https://www.cade.utah.edu/~gujjar/game.PNG" frameborder="0" allowfullscreen></iframe>
 
 Time Spent: ~12 Hours.
-[Download-Assignment 1.0](https://www.cade.utah.edu/~gujjar/game.zip)
+[Download-Assignment 1.0](https://www.cade.utah.edu/~gujjar/Assignment1/game.PNG)
 
 _Purpose of the Class_:
 

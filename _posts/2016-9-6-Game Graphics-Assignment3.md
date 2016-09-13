@@ -11,7 +11,6 @@ published: true
 Time Spent: ~12 Hours.
 [Download-Assignment 2.0](https://www.cade.utah.edu/~gujjar/Assignment3/game.zip)
 
-Gitlab Tag- Assignmentv3
 
 _Purpose of the Assignment_:
 
@@ -62,8 +61,7 @@ Now that D3d worked,I made the same changes to OpenGL and it worked well.Once of
 
 Code in MyGame that submits to mesh
 
-```eae6320::Application::cbApplication::sendToGraphics(m_Mesh);
-```
+eae6320::Application::cbApplication::sendToGraphics(m_Mesh);
 
 Code in Graphics.gl.cpp to render the mesh
 

@@ -6,7 +6,7 @@ published: true
 
 
 ##Rendering using Indices!!.
-<iframe width="640" height="315" src="https://www.cade.utah.edu/~gujjar/Assignment3/ass3.PNG" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="315" src="https://www.cade.utah.edu/~gujjar/Assignment4/ass4screenshot.PNG" frameborder="0" allowfullscreen></iframe>
 
 Time Spent: ~12 Hours.
 [Download-Assignment 2.0](https://www.cade.utah.edu/~gujjar/Assignment3/game.zip)

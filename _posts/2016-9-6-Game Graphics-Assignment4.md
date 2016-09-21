@@ -8,8 +8,8 @@ published: true
 ##Rendering using Indices!!.
 <iframe width="640" height="315" src="https://www.cade.utah.edu/~gujjar/Assignment4/ass4screenshot.PNG" frameborder="0" allowfullscreen></iframe>
 
-Time Spent: ~12 Hours.
-[Download-Assignment 2.0](https://www.cade.utah.edu/~gujjar/Assignment3/game.zip)
+Time Spent: ~14 Hours.
+[Download-Assignment 4.0](https://www.cade.utah.edu/~gujjar/Assignment3/game.zip)
 
 
 _Purpose of the Assignment_:

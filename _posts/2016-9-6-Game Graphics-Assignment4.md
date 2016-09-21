@@ -79,3 +79,18 @@ I have used ".lua" for my mesh asset extension,I would change it later,when I am
 
 
 Conclusions:Where there are problems in code and I feel like there is no prgress,I generally dont commit,because its not on my mind during that time,I know this is bad practice,what are your suggesstions so I keep commiting any changes I make so reverting and backtracking is easier.
+
+Update: I finally got the code to work.I relised i made some dumb mistakes,
+
+1) At one point i reverted my code to remove the index buffer because I had problems with shader,but then i forgot about it and started working on the Lua code, which cause the problem of the buffer not being rendered on screen.
+
+2)Secondly,doing it in OpenGl would be so much more easier that D3D,I should have started witht hat so I could have something more to show for.
+
+3)Pointer math is hard and pointer to pointer to pointer actually makes no sense and should be avoided.
+
+4)Lua parsing was not as easy as I thought and modularity is not your friend when loading data from Lua file.
+
+5)Architechturally I think having std:vectors to maintain buffer data is actually the best way to go about the Lua loading problem.I think I will do that now,to avoid future problems.
+
+6)I think getting a high level overview of what we need to do in the assignment is important,so we can plan ahead on how much time each part takes.I think I just tried to take it one at a time,and spent a lot of time in the beginning parts of the assignment. 
+

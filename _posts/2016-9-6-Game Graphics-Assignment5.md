@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Game Graphics-Assignment 4.0
+title: Game Graphics-Assignment 5.0
 published: true
 ---
 
@@ -64,19 +64,19 @@ which intern calls the below function to graphics
 
 Once my graphics system receives it,I add the mesh to the list and the draw them in the render frame like below 
 
-```	//update and bind drawcallbuffer ```
-	{	size_t numOfMeshes = m_MeshCenters.size();```
-	for (size_t i = 0;i < numOfMeshes;i++)```
-	{```
-		```sDrawCall currentMesh;```
-		```currentMesh.g_objectPosition_screen[0] = m_MeshCenters[i].x;```
-		```currentMesh.g_objectPosition_screen[1] = m_MeshCenters[i].y;```
-		```s_DrawCallBuffer ->Update(&currentMesh,sizeof(sDrawCall));```
-		```m_currentMeshes[i]->Render();```
-	```}```
-	```m_currentMeshes.clear();```
-	```m_MeshCenters.clear();```
-	}```
+```	//update and bind drawcallbuffer
+	{	size_t numOfMeshes = m_MeshCenters.size();
+	for (size_t i = 0;i < numOfMeshes;i++)
+	{
+		sDrawCall currentMesh;
+		currentMesh.g_objectPosition_screen[0] = m_MeshCenters[i].x;
+		currentMesh.g_objectPosition_screen[1] = m_MeshCenters[i].y;
+		s_DrawCallBuffer ->Update(&currentMesh,sizeof(sDrawCall));
+		m_currentMeshes[i]->Render();
+	}
+	m_currentMeshes.clear();
+	m_MeshCenters.clear();
+	}
 	```
 	
 	

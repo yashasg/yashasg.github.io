@@ -9,7 +9,7 @@ published: true
 <iframe width="640" height="315" src="http://cade.utah.edu/~gujjar/Assignment6/rotating_cube.PNG" frameborder="0" allowfullscreen></iframe>
 
 Time Spent: ~10 Hours.
-[Download-Assignment 5.0](http://cade.utah.edu/~gujjar/Assignment6/game.zip)
+[Download-Assignment 6.0](http://cade.utah.edu/~gujjar/Assignment6/game.zip)
 
 
 _Purpose of the Assignment_:
@@ -46,7 +46,13 @@ I also added other functionalities to my camera which calculated  a WorldToCamer
 Here's my interface for the camera.
 
 
-<iframe width="640" height="315" src="http://cade.utah.edu/~gujjar/Assignment6/rotating_cube.PNG" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="315" src="http://cade.utah.edu/~gujjar/Assignment6/camera%20interface.PNG" frameborder="0" allowfullscreen></iframe>
+
+
+This is how the camera looks when zoomed in
+
+
+<iframe width="640" height="315" src="http://cade.utah.edu/~gujjar/Assignment6/zommed_cube.PNG" frameborder="0" allowfullscreen></iframe>
  
 
 _My Third Task_:
@@ -147,7 +153,7 @@ We save 224 bytes on the whole,by using index drawing.
 
 Interface for my Camera
 
-<iframe width="640" height="315" src="http://cade.utah.edu/~gujjar/Assignment6/cullingcube.PNG" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="315" src="http://cade.utah.edu/~gujjar/Assignment6/camera%20interface.PNG" frameborder="0" allowfullscreen></iframe>
 
 For the Gameplay programmer Camera is also a gameobject that he needs to submit to the graphics.So I overloaded the submitToGraphics function to also b e able to take int he camera.The Graphics interface has 2 functions submitMesh and SubmitCamera.
 There is no abstraction here because the graphics needs to be able to differentiate the objects sent to it.

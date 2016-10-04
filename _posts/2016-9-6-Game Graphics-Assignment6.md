@@ -168,6 +168,7 @@ I feel this is not ideal and I would want to maintain a drawable class that has 
 Game code that submits a drawcall
 
 ```
+
 	eae6320::Application::cbApplication::sendToGraphics(square);
 	
 	eae6320::Application::cbApplication::sendToGraphics(floor);

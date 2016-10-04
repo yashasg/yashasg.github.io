@@ -8,7 +8,7 @@ published: true
 ##3d is HARD!!.
 <iframe width="640" height="315" src="http://cade.utah.edu/~gujjar/Assignment6/rotating_cube.PNG" frameborder="0" allowfullscreen></iframe>
 
-Time Spent: ~10 Hours.
+Time Spent: ~18 Hours.
 [Download-Assignment 6.0](http://cade.utah.edu/~gujjar/Assignment6/game.zip)
 
 

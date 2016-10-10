@@ -32,6 +32,8 @@ I downloaded the Maya2017 student edition and the sdk.Setting it up was fairly e
 _My Third Task_:
 I went in and started making the required changes in the MayaMeshExporter project, i decided to give it the same extension name ".lua".It helped me make my workflow easy.
 
+The MayaMeshExporter project depends on the Windows project in the engine to work.As per my understanding MayaMeshExporter project has no dependent projects,i.e none of the existing project require it to be functioning.
+
 While writing the logic to write the mesh file,i saw other data that I didnt understand the usage,so I left it out,in the future I will have to go back and change it once I understand the use of the other data involved.
 
 A problem I faced while writing to the file was that the floats were being written with full precesion which involved exponential values after decimal.I added the precision value to the fout field and also set the std::fixed,making the precesion of the data to only 2 values after the decimal.

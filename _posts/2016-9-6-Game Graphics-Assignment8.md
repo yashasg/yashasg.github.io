@@ -9,7 +9,7 @@ published: true
 <iframe width="640" height="480" src="http://cade.utah.edu/~gujjar/Assignment7/maya_export.PNG" frameborder="0" allowfullscreen></iframe>
 
 Time Spent: ~6 Hours.
-[Download-Assignment 7.0](http://cade.utah.edu/~gujjar/Assignment7/game.zip)
+[Download-Assignment 8.0](http://cade.utah.edu/~gujjar/Assignment8/game.zip)
 
 
 _Purpose of the Assignment_:

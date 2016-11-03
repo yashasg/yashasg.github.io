@@ -5,11 +5,11 @@ published: true
 ---
 
 
-##Mesh and Shader Builder.
-<iframe width="640" height="480" src="http://cade.utah.edu/~gujjar/Assignment7/maya_export.PNG" frameborder="0" allowfullscreen></iframe>
+##Gameplay.
+<iframe width="640" height="480" src="http://cade.utah.edu/~gujjar/Assignment9/ass9.JPG" frameborder="0" allowfullscreen></iframe>
 
 Time Spent: ~6 Hours.
-[Download-Assignment 9.0](http://cade.utah.edu/~gujjar/Assignment8/game.zip)
+[Download-Assignment 9.0](http://cade.utah.edu/~gujjar/Assignment9/game.zip)
 
 
 _Purpose of the Assignment_:

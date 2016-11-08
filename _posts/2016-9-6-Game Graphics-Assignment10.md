@@ -5,7 +5,7 @@ published: true
 ---
 
 
-##Gameplay.
+##Binary Data.
 <iframe width="640" height="480" src="http://cade.utah.edu/~gujjar/Assignment10/ass10.PNG" frameborder="0" allowfullscreen></iframe>
 
 Time Spent: ~8 Hours.

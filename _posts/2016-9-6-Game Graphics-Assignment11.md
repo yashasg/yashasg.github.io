@@ -44,8 +44,8 @@ Disadvantage is that it takes up 10 extra bytes in the file,which might be expen
 
 This is how I am reading it in runtime
 
-```
-		//get the starting position of the fragment shader path
+
+		```//get the starting position of the fragment shader path
 		{
 			fragmentPathstart = *reinterpret_cast<uint8_t*>(effectdata);
 		}

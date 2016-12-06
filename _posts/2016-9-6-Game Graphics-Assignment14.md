@@ -5,7 +5,7 @@ published: true
 ---
 
 #Mesh Textures.
-<iframe width="700" height="700" src="http://cade.utah.edu/~gujjar/Assignment13/gamess.PNG" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="700" src="http://cade.utah.edu/~gujjar/Assignment14/spritescreen.JPG" frameborder="0" allowfullscreen></iframe>
 
 Time Spent: ~10 Hours.
 [Download-Assignment 14.0](http://cade.utah.edu/~gujjar/Assignment14/game.zip)

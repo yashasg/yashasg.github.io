@@ -60,7 +60,7 @@ This is how my texture looks when the resolution is square 640x640
 <iframe width="700" height="700" src="http://cade.utah.edu/~gujjar/Assignment14/spritescreen.JPG" frameborder="0" allowfullscreen></iframe>
 
 This is how my texture looks when the resolution is square 1080x640
-<iframe width="700" height="700" src="http://cade.utah.edu/~gujjar/Assignment14/spritescreenstretch.JPG" frameborder="0" allowfullscreen></iframe>
+<iframe width="1080" height="640" src="http://cade.utah.edu/~gujjar/Assignment14/spritescreenstretch.JPG" frameborder="0" allowfullscreen></iframe>
 
 if you noticed the Ui object looks stretched,it is because I set a top left top right bottom left and bottom right positions fixed in my code,that means that when the screen stretches my positions also stretch with them,making it look a little blurry.
 
